@@ -14,4 +14,4 @@ if ($data.procurementProcesses && $data.procurementProcesses.length) {
     var process = $data.procurementProcesses[0];
     return "/bonita/portal/resource/process/"+ encodeURI(process.name) +"/" + process.version + "/content/?id=" + process.id +"&senderUrl="+ window.top.location.href;
 }
-// La variable getProcurementProcessStartUrl est reporté dans le widget Link à la rubrique URL
+// La variable getProcurementProcessStartUrl est reporté dans le widget Link à la rubrique URL (custom url)
